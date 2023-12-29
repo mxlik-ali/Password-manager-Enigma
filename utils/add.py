@@ -43,7 +43,7 @@ def addEntry(mp, ds, sitename, siteurl, email, username):
 	res = input()
 	res = res.title()
 	if res == 'Yes':
-		password = generate.generatePassword(8)
+		password = generate.generatePassword()
 	else:# Input Password
 		password = getpass("Password: ")
 
