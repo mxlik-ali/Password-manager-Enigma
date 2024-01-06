@@ -8,7 +8,7 @@ def dbconfig():
         db = mysql.connector.connect(
             host = "localhost",
             user = "root",
-            passwd = "9870687802Am*"
+            passwd = "********" #Please enter your own password for MySQL here
         )
     except Exception as e:
         console.print_exception(show_locals=True)   
